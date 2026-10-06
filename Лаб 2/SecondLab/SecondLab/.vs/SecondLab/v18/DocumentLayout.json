@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C3E406-798C-49D6-A77D-02D30CF61633}|..\\SecondLabTwo\\SecondLabTwo.csproj|c:\\users\\user\\desktop\\labs\\\u043B\u0430\u0431 2-20260925t102704z-1-001\\\u043B\u0430\u0431 2\\secondlabtwo\\service\\telephonemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C3E406-798C-49D6-A77D-02D30CF61633}|..\\SecondLabTwo\\SecondLabTwo.csproj|c:\\users\\user\\desktop\\labs\\\u043B\u0430\u0431 2-20260925t102704z-1-001\\\u043B\u0430\u0431 2\\secondlabtwo\\model\\telephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|c:\\users\\user\\desktop\\labs\\\u043B\u0430\u0431 2-20260925t102704z-1-001\\\u043B\u0430\u0431 2\\secondlab\\utility\\programrun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|solutionrelative:utility\\programrun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|c:\\users\\user\\desktop\\labs\\\u043B\u0430\u0431 2-20260925t102704z-1-001\\\u043B\u0430\u0431 2\\secondlab\\utility\\allfirmmethodstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|solutionrelative:utility\\allfirmmethodstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|c:\\users\\user\\desktop\\labs\\\u043B\u0430\u0431 2-20260925t102704z-1-001\\\u043B\u0430\u0431 2\\secondlab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C3E406-798C-49D6-A77D-02D30CF61633}|..\\SecondLabTwo\\SecondLabTwo.csproj|c:\\users\\user\\desktop\\labs\\\u043B\u0430\u0431 2-20260925t102704z-1-001\\\u043B\u0430\u0431 2\\secondlabtwo\\service\\consolemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|c:\\users\\user\\desktop\\labs\\\u043B\u0430\u0431 2-20260925t102704z-1-001\\\u043B\u0430\u0431 2\\secondlab\\service\\firmmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|solutionrelative:service\\firmmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|c:\\users\\user\\desktop\\labs\\\u043B\u0430\u0431 2-20260925t102704z-1-001\\\u043B\u0430\u0431 2\\secondlab\\utility\\listfiller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|solutionrelative:utility\\listfiller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C3E406-798C-49D6-A77D-02D30CF61633}|..\\SecondLabTwo\\SecondLabTwo.csproj|c:\\users\\user\\desktop\\labs\\\u043B\u0430\u0431 2-20260925t102704z-1-001\\\u043B\u0430\u0431 2\\secondlabtwo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|c:\\users\\user\\desktop\\labs\\\u043B\u0430\u0431 2-20260925t102704z-1-001\\\u043B\u0430\u0431 2\\secondlab\\service\\consolemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|solutionrelative:service\\consolemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|c:\\users\\user\\desktop\\labs\\\u043B\u0430\u0431 2-20260925t102704z-1-001\\\u043B\u0430\u0431 2\\secondlab\\model\\firm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|solutionrelative:model\\firm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|c:\\users\\user\\desktop\\labs\\\u043B\u0430\u0431 2-20260925t102704z-1-001\\\u043B\u0430\u0431 2\\secondlab\\model\\focus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA41F9B-3A31-4E4F-B64A-2523030E98DB}|SecondLab.csproj|solutionrelative:model\\focus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TelephoneMethods.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLabTwo\\Service\\TelephoneMethods.cs",
+              "RelativeDocumentMoniker": "..\\SecondLabTwo\\Service\\TelephoneMethods.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLabTwo\\Service\\TelephoneMethods.cs",
+              "RelativeToolTip": "..\\SecondLabTwo\\Service\\TelephoneMethods.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwCIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:45:56.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Telephone.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLabTwo\\model\\Telephone.cs",
+              "RelativeDocumentMoniker": "..\\SecondLabTwo\\model\\Telephone.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLabTwo\\model\\Telephone.cs",
+              "RelativeToolTip": "..\\SecondLabTwo\\model\\Telephone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:41:27.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLabTwo\\Program.cs",
+              "RelativeDocumentMoniker": "..\\SecondLabTwo\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLabTwo\\Program.cs",
+              "RelativeToolTip": "..\\SecondLabTwo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:38:12.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListFiller.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\Utility\\ListFiller.cs",
+              "RelativeDocumentMoniker": "Utility\\ListFiller.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\Utility\\ListFiller.cs",
+              "RelativeToolTip": "Utility\\ListFiller.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:33:40.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProgramRun.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\Utility\\ProgramRun.cs",
+              "RelativeDocumentMoniker": "Utility\\ProgramRun.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\Utility\\ProgramRun.cs",
+              "RelativeToolTip": "Utility\\ProgramRun.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:33:40.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AllFirmMethodsTest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\Utility\\AllFirmMethodsTest.cs",
+              "RelativeDocumentMoniker": "Utility\\AllFirmMethodsTest.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\Utility\\AllFirmMethodsTest.cs",
+              "RelativeToolTip": "Utility\\AllFirmMethodsTest.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:33:40.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FirmMethods.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\Service\\FirmMethods.cs",
+              "RelativeDocumentMoniker": "Service\\FirmMethods.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\Service\\FirmMethods.cs",
+              "RelativeToolTip": "Service\\FirmMethods.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:33:40.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConsoleMethods.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\Service\\ConsoleMethods.cs",
+              "RelativeDocumentMoniker": "Service\\ConsoleMethods.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\Service\\ConsoleMethods.cs",
+              "RelativeToolTip": "Service\\ConsoleMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:33:40.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Focus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\model\\Focus.cs",
+              "RelativeDocumentMoniker": "model\\Focus.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\model\\Focus.cs",
+              "RelativeToolTip": "model\\Focus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:33:40.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:33:40.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConsoleMethods.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLabTwo\\Service\\ConsoleMethods.cs",
+              "RelativeDocumentMoniker": "..\\SecondLabTwo\\Service\\ConsoleMethods.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLabTwo\\Service\\ConsoleMethods.cs",
+              "RelativeToolTip": "..\\SecondLabTwo\\Service\\ConsoleMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:59:18.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Firm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\model\\Firm.cs",
+              "RelativeDocumentMoniker": "model\\Firm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Labs\\\u041B\u0430\u0431 2-20260925T102704Z-1-001\\\u041B\u0430\u0431 2\\SecondLab\\model\\Firm.cs",
+              "RelativeToolTip": "model\\Firm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:33:40.145Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

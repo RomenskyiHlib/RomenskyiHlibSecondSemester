@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ThirdLabThree/1.0.0": {
+        "runtime": {
+          "ThirdLabThree.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ThirdLabThree/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+D:\Документи\2 курс\СМООП\Лаби\Лаб 3\ThirdLab\ThirdLab\bin\Debug\net8.0\ThirdLab.exe
+D:\Документи\2 курс\СМООП\Лаби\Лаб 3\ThirdLab\ThirdLab\bin\Debug\net8.0\ThirdLab.deps.json
+D:\Документи\2 курс\СМООП\Лаби\Лаб 3\ThirdLab\ThirdLab\bin\Debug\net8.0\ThirdLab.runtimeconfig.json
+D:\Документи\2 курс\СМООП\Лаби\Лаб 3\ThirdLab\ThirdLab\bin\Debug\net8.0\ThirdLab.dll
+D:\Документи\2 курс\СМООП\Лаби\Лаб 3\ThirdLab\ThirdLab\bin\Debug\net8.0\ThirdLab.pdb
+D:\Документи\2 курс\СМООП\Лаби\Лаб 3\ThirdLab\ThirdLab\obj\Debug\net8.0\ThirdLab.GeneratedMSBuildEditorConfig.editorconfig
+D:\Документи\2 курс\СМООП\Лаби\Лаб 3\ThirdLab\ThirdLab\obj\Debug\net8.0\ThirdLab.AssemblyInfoInputs.cache
+D:\Документи\2 курс\СМООП\Лаби\Лаб 3\ThirdLab\ThirdLab\obj\Debug\net8.0\ThirdLab.AssemblyInfo.cs
+D:\Документи\2 курс\СМООП\Лаби\Лаб 3\ThirdLab\ThirdLab\obj\Debug\net8.0\ThirdLab.csproj.CoreCompileInputs.cache
+D:\Документи\2 курс\СМООП\Лаби\Лаб 3\ThirdLab\ThirdLab\obj\Debug\net8.0\ThirdLab.dll
+D:\Документи\2 курс\СМООП\Лаби\Лаб 3\ThirdLab\ThirdLab\obj\Debug\net8.0\refint\ThirdLab.dll
+D:\Документи\2 курс\СМООП\Лаби\Лаб 3\ThirdLab\ThirdLab\obj\Debug\net8.0\ThirdLab.pdb
+D:\Документи\2 курс\СМООП\Лаби\Лаб 3\ThirdLab\ThirdLab\obj\Debug\net8.0\ThirdLab.genruntimeconfig.cache
+D:\Документи\2 курс\СМООП\Лаби\Лаб 3\ThirdLab\ThirdLab\obj\Debug\net8.0\ref\ThirdLab.dll

@@ -1,0 +1,14 @@
+D:\Документи\2 курс\СМООП\Лаби\Лаб 2\SecondLabTwo\obj\Debug\net8.0\SecondLabTwo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Документи\2 курс\СМООП\Лаби\Лаб 2\SecondLabTwo\obj\Debug\net8.0\SecondLabTwo.AssemblyInfoInputs.cache
+D:\Документи\2 курс\СМООП\Лаби\Лаб 2\SecondLabTwo\obj\Debug\net8.0\SecondLabTwo.AssemblyInfo.cs
+D:\Документи\2 курс\СМООП\Лаби\Лаб 2\SecondLabTwo\obj\Debug\net8.0\SecondLabTwo.csproj.CoreCompileInputs.cache
+D:\Документи\2 курс\СМООП\Лаби\Лаб 2\SecondLabTwo\bin\Debug\net8.0\SecondLabTwo.exe
+D:\Документи\2 курс\СМООП\Лаби\Лаб 2\SecondLabTwo\bin\Debug\net8.0\SecondLabTwo.deps.json
+D:\Документи\2 курс\СМООП\Лаби\Лаб 2\SecondLabTwo\bin\Debug\net8.0\SecondLabTwo.runtimeconfig.json
+D:\Документи\2 курс\СМООП\Лаби\Лаб 2\SecondLabTwo\bin\Debug\net8.0\SecondLabTwo.dll
+D:\Документи\2 курс\СМООП\Лаби\Лаб 2\SecondLabTwo\bin\Debug\net8.0\SecondLabTwo.pdb
+D:\Документи\2 курс\СМООП\Лаби\Лаб 2\SecondLabTwo\obj\Debug\net8.0\SecondLabTwo.dll
+D:\Документи\2 курс\СМООП\Лаби\Лаб 2\SecondLabTwo\obj\Debug\net8.0\refint\SecondLabTwo.dll
+D:\Документи\2 курс\СМООП\Лаби\Лаб 2\SecondLabTwo\obj\Debug\net8.0\SecondLabTwo.pdb
+D:\Документи\2 курс\СМООП\Лаби\Лаб 2\SecondLabTwo\obj\Debug\net8.0\SecondLabTwo.genruntimeconfig.cache
+D:\Документи\2 курс\СМООП\Лаби\Лаб 2\SecondLabTwo\obj\Debug\net8.0\ref\SecondLabTwo.dll
