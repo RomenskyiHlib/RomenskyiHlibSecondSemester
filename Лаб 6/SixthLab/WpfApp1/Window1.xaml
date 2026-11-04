@@ -1,0 +1,142 @@
+﻿<Window x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="BestOil program" Height="450" Width="800" Background="Cornsilk" Closing="Window_Closing">
+    <Grid>
+       
+            <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="50"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Image Source="Images/bg.png" Stretch="UniformToFill" Grid.ColumnSpan="10" Grid.RowSpan="10"/>
+        <Rectangle x:Name="Bg" Fill="Coral" Grid.Row="1" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="7" Stroke="Firebrick"  StrokeThickness="2"/>
+        <Rectangle x:Name="Bg1" Fill="LightGoldenrodYellow" Grid.Column="2" Grid.Row="2" Stroke="Firebrick" StrokeThickness="1"/>
+        <Rectangle x:Name="Bg2" Fill="LightGoldenrodYellow"  Grid.Column="4" Grid.Row="2" Stroke="Firebrick" StrokeThickness="1"/>
+        <Rectangle x:Name="Bg3" Fill="LightGoldenrodYellow"   Grid.Column="6" Grid.Row="2" Stroke="Firebrick" StrokeThickness="1"/>
+        <Label Name="Caption1" Content="Автозаправка" Grid.Column="2" FontSize="20" FontFamily="Consolas" Grid.Row="2" HorizontalAlignment="Center" Foreground="Firebrick"/>
+        <Label Name="Caption2" Content="Міні-Кафе" Grid.Column="4" FontSize="20" FontFamily="Consolas" Grid.Row="2" HorizontalAlignment="Center" Foreground="Firebrick"/>
+        <Label Name="Caption3" Content="Всього до сплати" Grid.Column="6" Grid.Row="2" HorizontalAlignment="Center" FontSize="20" FontFamily="Consolas" RenderTransformOrigin="0.5,0.5" Foreground="Firebrick"/>
+        <Grid Name="Grid1"  Grid.Row="2" Grid.Column="2" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15"/>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="35"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="59*"/>
+                <RowDefinition Height="54*"/>
+                <RowDefinition Height="54*"/>
+                <RowDefinition Height="64*"/>
+                <RowDefinition Height="64*"/>
+                <RowDefinition Height="82*"/>
+            </Grid.RowDefinitions>
+            <Rectangle x:Name="Border" Fill="Transparent" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="3" Stroke="Firebrick" StrokeThickness="1" Margin="-3,42,5,0"/>
+            <Rectangle x:Name="Border2" Fill="Transparent" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="6" Stroke="Firebrick" StrokeThickness="1" Margin="-3,5,0,0"/>
+            <TextBlock Name="Oil" Text="Бензин"  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
+            <TextBlock Name="Price" Text="Ціна"  Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
+            <RadioButton Name="Rb1"  Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Rb1_Click"/>
+            <RadioButton Name="Rb2" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Rb2_Click"/>
+            <TextBlock Name="Number" Text="Кількість"  Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
+            <TextBlock Name="Sum" Text="Сума"  Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
+            <TextBlock Name="ProceedToPayment" Text="До оплати"  Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
+            <ComboBox Name="OilList"  Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="3" Height="20" SelectionChanged="OilList_SelectionChanged">
+                <ComboBoxItem Content="Хороший бензин"/>
+                <ComboBoxItem Content="Непоганий бензин"/>
+                <ComboBoxItem Content="Вище середнього бензин"/>
+                <ComboBoxItem Content="Класний бензин"/>
+            </ComboBox>
+            <Label Name="PriceShow" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="11" Width="82" Height="22" BorderBrush="DimGray"  BorderThickness="1" Background="White"/>
+            <TextBox Name="NumberBox" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="2" Height="20" TextChanged="NumberBoxAndSumBox_TextChanged"/>
+            <TextBox Name="SumBox" Grid.Row="4" Grid.Column="3" Grid.ColumnSpan="2" Height="20" TextChanged="NumberBoxAndSumBox_TextChanged"/>
+            <TextBlock Name="Hrn" Text="грн."  Grid.Row="2" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
+            <TextBlock Name="Hrn1" Text="грн."  Grid.Row="4" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
+            <TextBlock Name="Hrn2" Text="грн."  Grid.Row="5" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
+            <TextBlock Name="Litres" Text="л."  Grid.Row="3" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
+            <Label Name="ProceedToPaymentBox"  Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="13" Width="64" Height="44" FontStyle="Italic"/>
+        </Grid>
+        <Grid Name="Grid2"  Grid.Row="2" Grid.Column="4" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="17"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="27"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="35"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="59*"/>
+                <RowDefinition Height="54*"/>
+                <RowDefinition Height="54*"/>
+                <RowDefinition Height="54*"/>
+                <RowDefinition Height="54*"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="74*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Name="F1" Text="Кава"  Grid.Row="1" Grid.Column="1"  HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
+            <TextBlock Name="F2" Text="Сік"  Grid.Row="2" Grid.Column="1"  HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12" />
+            <TextBlock Name="F3" Text="Пиріжок"  Grid.Row="3" Grid.Column="1"  HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="11" />
+            <TextBlock Name="F4" Text="Пончик"  Grid.Row="4" Grid.Column="1"  HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12" />
+            <Rectangle x:Name="Border4" Fill="Transparent" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="6" Stroke="Firebrick" StrokeThickness="1" Margin="-3,48,23,10"/>
+            <CheckBox Name="Food1"  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Food1_Checked" />
+            <CheckBox Name="Food2"  Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Food2_Checked" />
+            <CheckBox Name="Food3"  Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Food3_Checked" />
+            <CheckBox Name="Food4"  Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Food4_Checked" />
+            <Label Name="ProceedToPaymentBox2" Content=""  Grid.Row="6" Grid.Column="3" Grid.ColumnSpan="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="13" Width="64" Height="44" FontStyle="Italic"/>
+            <TextBlock Name="ProceedToPayment2" Text="До оплати"  Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12" Height="13"/>
+            <TextBlock Name="Hrn4" Text="грн."  Grid.Row="6" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
+            <Rectangle x:Name="Border3" Fill="Transparent" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="6" Stroke="Firebrick" StrokeThickness="1" Margin="-3,10,0,0" Grid.RowSpan="2"/>
+            <Label Name="PriceShow1" Content="4,00"  Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="3"  HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12" Width="45" Padding="2" Height="19" BorderBrush="DimGray"  BorderThickness="1" Background="White"/>
+            <Label Name="PriceShow2" Content="20,99" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12" Width="45" Padding="2" Height="19" BorderBrush="DimGray"  BorderThickness="1" Background="White"/>
+            <Label Name="PriceShow3" Content="6,0" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12" Width="45" Padding="2" Height="19" BorderBrush="DimGray"  BorderThickness="1" Background="White"/>
+            <Label Name="PriceShow4" Content="3,2" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12" Width="45" Padding="2" Height="19" BorderBrush="DimGray"  BorderThickness="1" Background="White"/>
+            <TextBox Name="NumberBox1" Text="0" Grid.Column="5" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="34" IsEnabled="False" TextChanged="Food_TextChanged"/>
+            <TextBox Name="NumberBox2" Text="0" Grid.Column="5" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="34" IsEnabled="False" TextChanged="Food_TextChanged"/>
+            <TextBox Name="NumberBox3" Text="0" Grid.Column="5" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="34" IsEnabled="False" TextChanged="Food_TextChanged"/>
+            <TextBox Name="NumberBox4" Text="0" Grid.Column="5" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Width="34" IsEnabled="False" TextChanged="Food_TextChanged"/>
+            <TextBlock Name="Price2" Text="Ціна"  Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Times New Roman" FontSize="9"/>
+            <TextBlock Name="Number2" Text="Кількість"  Grid.Row="0" Grid.Column="5"  HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Times New Roman" FontSize="9"/>
+        </Grid>
+        <Grid Name="Grid3"  Grid.Row="2" Grid.Column="6" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="35"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="35"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="59*"/>
+                <RowDefinition Height="54*"/>
+                <RowDefinition Height="54*"/>
+                <RowDefinition Height="54*"/>
+                <RowDefinition Height="54*"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="65*"/>
+            </Grid.RowDefinitions>
+            <Label Name="ProceedToPaymentBox3" Content=""  Grid.Row="4"  Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="40"  FontStyle="Italic" Width="123" Grid.ColumnSpan="3"/>
+            <TextBlock Name="Hrn5" Text="грн."  Grid.Row="6" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="12"/>
+            <Rectangle x:Name="Border5" Fill="Transparent" Grid.Row="4" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="4" Stroke="Firebrick" StrokeThickness="1" Margin="-3,10,0,0"/>
+            <Button x:Name="Calculator" Content="Порахувати" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="3" FontFamily="Times New Roman" FontSize="17" Background="White" Click="Calculator_Click"/>
+        </Grid>
+    </Grid>
+</Window>

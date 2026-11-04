@@ -1,0 +1,51 @@
+﻿<Window x:Class="SeventhLab.SignUpUsingBlueSky"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SeventhLab"
+        mc:Ignorable="d"
+        Title="SignUpUsingBlueSky" Height="450" Width="500" Background="{StaticResource gradientBgStyle}">
+    <Window.Resources>
+        <LinearGradientBrush x:Key="gradientSignUpBorderStyle" StartPoint="0.5,1" EndPoint="0.5,0">
+            <GradientStop Color="HotPink" Offset="0" />
+            <GradientStop Color="CadetBlue" Offset="1" />
+        </LinearGradientBrush>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="0.6*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.8*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.8*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.8*"/>
+            <RowDefinition Height="0.1*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Name="BgAc1" Fill="{StaticResource BgStyle}" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="6" Stroke="Black" StrokeThickness="5"/>
+        <TextBlock Name="SignUpWithB" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Text="Sign in with bluesky.com" Foreground="{StaticResource gradientHeadingsStyle}" HorizontalAlignment="Center" FontSize="30" VerticalAlignment="Center" FontFamily="Berlin Sans FB"/>
+        <TextBlock Name="OrSingUpUsing" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2" Text="Select an account" Foreground="White" FontSize="19" FontFamily="Berlin Sans FB" TextAlignment="Center"  VerticalAlignment="Center"/>
+        <Rectangle Name="Border" Fill="Transparent" Stroke="{DynamicResource gradientSignUpBorderStyle}" StrokeThickness="5" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="8"/>
+
+        <TextBlock Name="Ac1Name" Grid.Column="2"  Grid.Row="3" Text="Username1" Foreground="White" FontSize="23" FontFamily="Berlin Sans FB" TextAlignment="Left"  VerticalAlignment="Center"/>
+        <TextBlock Name="Ac1Email" Grid.Column="2"  Grid.Row="4" Text="@user111.bsky.social" Foreground="White" FontSize="16" FontFamily="Berlin Sans FB" TextAlignment="Left"  VerticalAlignment="Top"/>
+        <Button Name="LogoGoogleAc1" Grid.Column="1" Grid.Row="3" Grid.RowSpan="2" Background="Transparent" BorderBrush="Transparent" Click="LogoGoogleAc1_Click">
+            <Image Source="/Images/bsicon2.png" Width="80" Height="80"/>
+        </Button>
+        <TextBlock Name="Ac2Name" Grid.Column="2"  Grid.Row="5" Text="LifeLover" Foreground="White" FontSize="23" FontFamily="Berlin Sans FB" TextAlignment="Left"  VerticalAlignment="Center"/>
+        <TextBlock Name="Ac2Email" Grid.Column="2"  Grid.Row="6" Text="@lifelover12.bsky.social" Foreground="White" FontSize="16" FontFamily="Berlin Sans FB" TextAlignment="Left"  VerticalAlignment="Top"/>
+        <Button Name="LogoGoogleAc2" Grid.Column="1" Grid.Row="5" Grid.RowSpan="2" Background="Transparent" BorderBrush="Transparent" Click="LogoGoogleAc2_Click">
+            <Image Source="/Images/bsicon.png" Width="80" Height="80"/>
+        </Button>
+      
+    </Grid>
+</Window>

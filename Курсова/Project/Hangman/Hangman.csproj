@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="FontFamily\Comic_Jens_Free_Pro.ttf" />
+    <None Remove="Images\Bg menu blur.png" />
+    <None Remove="Images\Bg menu.png" />
+    <None Remove="Images\Hangman.png" />
+    <None Remove="Images\Title.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="FontFamily\Comic_Jens_Free_Pro.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Bg menu blur.png" />
+    <Resource Include="Images\Bg menu.png" />
+    <Resource Include="Images\Hangman.png" />
+    <Resource Include="Images\Title.png" />
+  </ItemGroup>
+
+</Project>

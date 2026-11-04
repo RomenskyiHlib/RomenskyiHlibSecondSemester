@@ -1,0 +1,34 @@
+﻿<Window x:Class="Hangman.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hangman"
+        mc:Ignorable="d"
+        Title="Menu" Height="650" Width="950">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.7*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.4*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Image Source="/Images/Bg menu.png" Stretch="Fill"  Grid.RowSpan="4" Grid.ColumnSpan="4"/>
+        <Image Source="/Images/Title.png" Stretch="Fill"/>
+        <Image Source="/Images/Hangman.png" Stretch="Fill" Grid.Column="0" Grid.Row="1" Grid.RowSpan="3"/>
+        <StackPanel Name="Buttons" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <Button x:Name="StartGame" Content="Почати гру" Foreground="LightGray" FontFamily="FontFamily/#Comic Jens Free Pro" FontSize="40" HorizontalAlignment="Center" Background="Transparent" BorderBrush="Transparent"/>
+            <Button x:Name="Settings" Content="Налаштування" Foreground="LightGray" FontFamily="FontFamily/#Comic Jens Free Pro" FontSize="40" HorizontalAlignment="Center" Background="Transparent" BorderBrush="Transparent"/>
+            <Button x:Name="Stat" Content="Статистика" Foreground="LightGray" FontFamily="FontFamily/#Comic Jens Free Pro" FontSize="40" HorizontalAlignment="Center" Background="Transparent" BorderBrush="Transparent"/>
+            <Button x:Name="EraseData" Content="Стерти дані" Foreground="LightGray" FontFamily="FontFamily/#Comic Jens Free Pro" FontSize="40" HorizontalAlignment="Center" Background="Transparent" BorderBrush="Transparent"/>
+            <Button x:Name="Quit" Content="Вихід" Foreground="LightGray" FontFamily="FontFamily/#Comic Jens Free Pro" FontSize="40" HorizontalAlignment="Center" Background="Transparent" BorderBrush="Transparent" Click="Quit_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
