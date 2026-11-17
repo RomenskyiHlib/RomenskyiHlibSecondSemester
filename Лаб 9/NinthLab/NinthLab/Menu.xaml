@@ -1,0 +1,74 @@
+﻿<Window x:Class="NinthLab.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NinthLab"
+        mc:Ignorable="d"
+        Title="Menu" Height="650" Width="650" Background="{StaticResource gradientBGStyle}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="1.2*"/>
+            <ColumnDefinition Width="1.2*"/>
+            <ColumnDefinition Width="1.2*"/>
+            <ColumnDefinition Width="1.5*"/>
+            <ColumnDefinition Width="0.2*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition />
+            <RowDefinition Height="2*"/>
+
+            <RowDefinition/>
+            <RowDefinition Height="0.3*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Name="Bg" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Grid.RowSpan="3" Fill="{StaticResource BgStyle}" Stroke="{StaticResource gradientBorderStyle}" StrokeThickness="5"/>
+        <ListBox Name="UsersList" ItemsSource="{Binding Users}" SelectedItem="{Binding SelectedUser}" IsHitTestVisible="True" SelectionMode="Single" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="4" Height="490" Width="395" HorizontalContentAlignment="Stretch" VerticalAlignment="Center" AlternationCount="2" Margin="22,-40,18,0">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Background" Value="White"/>
+                    <Style.Triggers>
+                        <Trigger Property="ItemsControl.AlternationIndex" Value="0">
+                            <Setter Property="Background" Value="LightPink"/>
+                        </Trigger>
+                        <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+                            <Setter Property="Background" Value="LightYellow"/>
+                        </Trigger>
+                        <DataTrigger Binding="{Binding Items.Count, ElementName=UsersList}" Value="1">
+                            <Setter Property="Background" Value="LightPink"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="#E0E0E0" BorderThickness="0,0,0,1" Padding="5">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding FullName}" FontSize="14"/>
+                            <TextBlock Text="{Binding FormattedAge, StringFormat=' - {0}'}" Foreground="Gray" Margin="5,0,0,0" VerticalAlignment="Center"/>
+                            <TextBlock Text="{Binding Model.Gender, StringFormat=' ({0})'}" Foreground="DarkSlateBlue" Margin="5,0,0,0" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Rectangle Name="Bg2" Grid.Row="1" Grid.Column="4" Grid.RowSpan="3" Fill="{StaticResource gradientBG2Style}" Stroke="{StaticResource gradientBorderStyle}" StrokeThickness="5"/>
+
+        <TextBlock Name="JustText" FontSize="17" Grid.Row="3" Grid.Column="4" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"  Foreground="Black" Margin="0 0 -2 0" FontFamily="Consolas" FontStyle="Italic">
+Кнопки<LineBreak/> для керування<LineBreak/>над списком<LineBreak/>користувачів
+        </TextBlock>
+        <TextBlock Name="FustText" FontSize="30" Grid.Row="1" Grid.Column="4" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"  Foreground="{StaticResource gradientBTextStyle}" Margin="0 0 -2 0" FontFamily="Consolas" FontWeight="Bold">
+С    Т    У<LineBreak/>Д  Е  Н<LineBreak/>Т  И
+        </TextBlock>
+        <StackPanel Name="Button" Grid.Row="2" Grid.Column="4" Margin="4">
+            <Button Name="Add" Content="Додати"  Height="40" Width="150" FontSize="21" Background="{StaticResource gradientBorderStyle}" FontFamily="Century Gothic" Command="{Binding AddCommand}" Margin="4"/>
+            <Button Name="Edit" Content="Редагування"  Height="40" Width="150" FontSize="21" Background="{StaticResource gradientBorderStyle}" FontFamily="Century Gothic" Command="{Binding EditCommand}" Margin="4"/>
+            <Button Name="Delete" Content="Видалити"  Height="40" Width="150" FontSize="21" Background="{StaticResource gradientBorderStyle}" FontFamily="Century Gothic" Command="{Binding DeleteCommand}" Margin="4"/>
+            <Button Name="Save" Content="Зберегти"  Height="40" Width="150" FontSize="21" Background="{StaticResource gradientBorderStyle}" FontFamily="Century Gothic" Command="{Binding SaveCommand}" Margin="4"/>
+            <Button Name="Loas" Content="Завантажити"  Height="40" Width="150" FontSize="21" Background="{StaticResource gradientBorderStyle}" FontFamily="Century Gothic" Command="{Binding LoadCommand}" Margin="4"/>
+        </StackPanel>
+    </Grid>
+</Window>
+

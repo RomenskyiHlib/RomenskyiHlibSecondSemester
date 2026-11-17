@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6AEF49-D03D-4AB3-855B-464FF39466AC}|EighthLab.csproj|d:\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u0430\u0431\u0438\\\u043B\u0430\u0431 8\\eightslab\\eighthlab\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6AEF49-D03D-4AB3-855B-464FF39466AC}|EighthLab.csproj|solutionrelative:candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6AEF49-D03D-4AB3-855B-464FF39466AC}|EighthLab.csproj|d:\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u0430\u0431\u0438\\\u043B\u0430\u0431 8\\eightslab\\eighthlab\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB6AEF49-D03D-4AB3-855B-464FF39466AC}|EighthLab.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6AEF49-D03D-4AB3-855B-464FF39466AC}|EighthLab.csproj|d:\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u0430\u0431\u0438\\\u043B\u0430\u0431 8\\eightslab\\eighthlab\\menu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB6AEF49-D03D-4AB3-855B-464FF39466AC}|EighthLab.csproj|solutionrelative:menu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6AEF49-D03D-4AB3-855B-464FF39466AC}|EighthLab.csproj|d:\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u0430\u0431\u0438\\\u043B\u0430\u0431 8\\eightslab\\eighthlab\\menu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6AEF49-D03D-4AB3-855B-464FF39466AC}|EighthLab.csproj|solutionrelative:menu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6AEF49-D03D-4AB3-855B-464FF39466AC}|EighthLab.csproj|d:\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u0430\u0431\u0438\\\u043B\u0430\u0431 8\\eightslab\\eighthlab\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB6AEF49-D03D-4AB3-855B-464FF39466AC}|EighthLab.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6AEF49-D03D-4AB3-855B-464FF39466AC}|EighthLab.csproj|d:\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u0430\u0431\u0438\\\u043B\u0430\u0431 8\\eightslab\\eighthlab\\validationmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6AEF49-D03D-4AB3-855B-464FF39466AC}|EighthLab.csproj|solutionrelative:validationmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB6AEF49-D03D-4AB3-855B-464FF39466AC}|EighthLab.csproj|d:\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u0430\u0431\u0438\\\u043B\u0430\u0431 8\\eightslab\\eighthlab\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB6AEF49-D03D-4AB3-855B-464FF39466AC}|EighthLab.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ValidationMethods.cs",
+              "DocumentMoniker": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\ValidationMethods.cs",
+              "RelativeDocumentMoniker": "ValidationMethods.cs",
+              "ToolTip": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\ValidationMethods.cs",
+              "RelativeToolTip": "ValidationMethods.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T16:01:26.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Menu.xaml.cs",
+              "DocumentMoniker": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\Menu.xaml.cs",
+              "RelativeDocumentMoniker": "Menu.xaml.cs",
+              "ToolTip": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\Menu.xaml.cs",
+              "RelativeToolTip": "Menu.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T18:39:44.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-12T18:34:26.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\Candidate.cs",
+              "RelativeDocumentMoniker": "Candidate.cs",
+              "ToolTip": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\Candidate.cs",
+              "RelativeToolTip": "Candidate.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAIcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T18:19:41.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-12T16:15:12.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Menu.xaml",
+              "DocumentMoniker": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\Menu.xaml",
+              "RelativeDocumentMoniker": "Menu.xaml",
+              "ToolTip": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\Menu.xaml",
+              "RelativeToolTip": "Menu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-12T18:04:14.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\2 \u043A\u0443\u0440\u0441\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u0430\u0431\u0438\\\u041B\u0430\u0431 8\\EightsLab\\EighthLab\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwBsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T16:15:07.803Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
